@@ -5,7 +5,7 @@
 
 # [Info]
 # Project
-Q = 1
+Q = 9
 PROJECT_FOLDER = ./LeetCode/${Q}-*
 # PROJECT_FOLDER = ./Algorithm/LinkedList
 SOURCE = ${PROJECT_FOLDER}/src/*.swift
