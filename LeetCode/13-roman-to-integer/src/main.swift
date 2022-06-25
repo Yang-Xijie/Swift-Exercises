@@ -1,1 +1,1 @@
-assert(Solution().romanToInt("VIII"), 8)
+assert(Solution().romanToInt("VIII") == 8)
