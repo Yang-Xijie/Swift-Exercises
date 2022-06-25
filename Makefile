@@ -5,7 +5,7 @@
 
 # [Info]
 # Project
-Q = 13
+Q = 14
 PROJECT_FOLDER = ./LeetCode/${Q}-*
 # PROJECT_FOLDER = ./Algorithm/LinkedList
 SOURCE = ${PROJECT_FOLDER}/src/*.swift
@@ -20,7 +20,7 @@ COMPILER = swiftc
 build: create-build-folder ${SOURCE}
 	@${COMPILER} ${SOURCE} -o ${EXECUTABLE}
 run: build
-	@${EXECUTABLE} ${ARGUMENTS}
+	@${EXECUTABLE}
 # Others
 create-build-folder:
 	@mkdir -p ${BUILD_FOLDER} 
