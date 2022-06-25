@@ -1,0 +1,1 @@
+assert(Solution().romanToInt("VIII"), 8)
