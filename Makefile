@@ -5,20 +5,20 @@
 
 # [Info]
 # Project
-Q = 14
+Q ?= 1
 PROJECT_FOLDER = ./LeetCode/${Q}-*
 # PROJECT_FOLDER = ./Algorithm/LinkedList
-SOURCE = ${PROJECT_FOLDER}/src/*.swift
+SOURCES = ${PROJECT_FOLDER}/src/*.swift
 # Build
 BUILD_FOLDER = ./build
-EXECUTABLE = ${BUILD_FOLDER}/a.out
+EXECUTABLE = ${BUILD_FOLDER}/main.out
 # Tools
 COMPILER = swiftc
 
 # [Target]
 # Run
-build: create-build-folder ${SOURCE}
-	@${COMPILER} ${SOURCE} -o ${EXECUTABLE}
+build: create-build-folder ${SOURCES}
+	@${COMPILER} ${SOURCES} -o ${EXECUTABLE}
 run: build
 	@${EXECUTABLE}
 # Others

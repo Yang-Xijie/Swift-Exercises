@@ -4,4 +4,4 @@ let output = Solution().twoSum(nums, target)
 
 assert(output == [0, 1])
 
-print("OK!")
+print("1 OK")
