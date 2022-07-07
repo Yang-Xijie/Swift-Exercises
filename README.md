@@ -5,8 +5,7 @@
 ### 开始新题目
 
 - 在`LeetCode/`下新建`<problem_id>-<problem_name>`文件夹
-    - 新建`README.md`简述题目并说明算法思路
-- 在其中新建`src`文件夹
+- 新建`README.md`简述题目并说明算法思路
 - 新建`main.swift`
     - 主要用于编写测试样例 `let result = Solution().function(...); assert(result == ...)`
 - 新建`Solution.swift`
@@ -17,7 +16,7 @@
 ### 运行
 
 - 修改`Makefile`中的`Q`为LeetCode题目编号 命令行执行`make`
-- 或命令行执行`Q=<problem_id> make`
+- 或 命令行执行`Q=<problem_id> make`
 
 注：做算法题代码出问题并不推荐使用调试 自己多思考
 
