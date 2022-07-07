@@ -1,2 +1,6 @@
+# demos
+Playgrounds/
+
+# executables
 build/
 *.out
