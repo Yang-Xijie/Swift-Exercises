@@ -2,6 +2,8 @@
 
 ## LeetCode
 
+<https://leetcode.cn/problemset/all/?difficulty=EASY&page=1>
+
 ### 开始新题目
 
 - 新建文件夹
