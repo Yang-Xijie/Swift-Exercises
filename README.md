@@ -7,7 +7,7 @@
 ### 开始新题目
 
 - 新建文件夹
-    - 复制`LeetCode/n-template/`并重命名为`LeetCode/<problem_id>-<problem_name>/`
+    - 复制`n-template/`到`LeetCode/`并重命名为`LeetCode/<problem_id>-<problem_name>/`
     - **或** 新建`LeetCode/<problem_id>-<problem_name>/`
 - 新建文件
     - 新建`README.md`简述题目并说明算法思路
