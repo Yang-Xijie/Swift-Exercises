@@ -4,9 +4,10 @@
 # clean build folder: `make clean`
 
 # [Info]
-# Project
+# ProjectInfo
+SITE ?= LeetCode
 Q ?= 1
-PROJECT_FOLDER = ./LeetCode/${Q}-*
+PROJECT_FOLDER = ./${SITE}/${Q}-*
 SOURCES = ${PROJECT_FOLDER}/*.swift
 # Build
 BUILD_FOLDER = ./build
